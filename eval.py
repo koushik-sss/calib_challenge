@@ -25,3 +25,6 @@ for i in range(0,5):
 
 percent_err_vs_all_zeros = 100*np.mean(mses)/np.mean(zero_mses)
 print(f'YOUR ERROR SCORE IS {percent_err_vs_all_zeros:.2f}% (lower is better)')
+
+# to run this script, use the following command:
+
